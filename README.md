@@ -1,10 +1,11 @@
 # cross-domain
 Cross domain
 
+跨域jsonp
 
 ```
 
-import Jsonp from 'cross-domain'
+import jsonp from 'mifanfan-jsonp'
 
 jsonp('www.mifanxing.com', {name: '3', callback='func'})
 
